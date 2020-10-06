@@ -1,0 +1,183 @@
+[p GLOBOPT AUTOSTATIC LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"62 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\LCD_PortD.c
+[v _c `uc  1 a 1 fsr1l ]
+[v _c `uc  1 a 1 fsr1l ]
+"44
+[v _c `uc  1 a 1 fsr1l ]
+[v _c `uc  1 a 1 fsr1l ]
+"54
+[v _Row `uc  1 a 1 fsr0l ]
+[v _Row `uc  1 a 1 fsr0l ]
+"62
+[v _c `uc  1 a 1 fsr1l ]
+"44
+[v _c `uc  1 a 1 fsr1l ]
+"54
+[v _Row `uc  1 a 1 fsr0l ]
+"62
+[v _c `uc  1 a 1 fsr1l ]
+"54
+[v _Row `uc  1 a 1 fsr0l ]
+"62
+[v _c `uc  1 a 1 fsr1l ]
+"44
+[v _c `uc  1 a 1 fsr1l ]
+[v _c `uc  1 a 1 fsr1l ]
+"54
+[v _Row `uc  1 a 1 fsr0l ]
+"62
+[v _c `uc  1 a 1 fsr1l ]
+"44
+[v _c `uc  1 a 1 fsr1l ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"21 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\clock.c
+[v _main `(v  1 e 0 0 ]
+"67
+[v _exit `(i  1 e 2 0 ]
+"16 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\LCD_PortD.c
+[v _Wait_ms `(v  1 e 0 0 ]
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc  1 e 1 @4033 ]
+"133
+[v _TRISE `VNuc  1 e 1 @3990 ]
+"134
+[v _TRISD `VNuc  1 e 1 @3989 ]
+"136
+[v _TRISC `VNuc  1 e 1 @3988 ]
+"137
+[v _TRISB `VNuc  1 e 1 @3987 ]
+"138
+[v _TRISA `VNuc  1 e 1 @3986 ]
+"146
+[v _PORTE `VNuc  1 e 1 @3972 ]
+"148
+[v _PORTD `VNuc  1 e 1 @3971 ]
+"150
+[v _PORTC `VNuc  1 e 1 @3970 ]
+"151
+[v _PORTB `VNuc  1 e 1 @3969 ]
+"152
+[v _PORTA `VNuc  1 e 1 @3968 ]
+"617
+[v _RD1 `VNb  1 e 0 @31769 ]
+"618
+[v _RD2 `VNb  1 e 0 @31770 ]
+"619
+[v _RD3 `VNb  1 e 0 @31771 ]
+"637
+[v _RB0 `VNb  1 e 0 @31752 ]
+"638
+[v _RB1 `VNb  1 e 0 @31753 ]
+"639
+[v _RB2 `VNb  1 e 0 @31754 ]
+"3 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\clock.c
+[v _MSG0 `DC[20]uc  1 e 20 0 ]
+"21
+[v _main `(v  1 e 0 0 ]
+{
+"22
+[v _HR `ui  1 a 2 0 ]
+"23
+[v _i `ui  1 a 2 2 ]
+"22
+[v _MIN `ui  1 a 2 4 ]
+[v _SEC `ui  1 a 2 6 ]
+"72
+} 8
+"54 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\LCD_PortD.c
+[v _LCD_Move `(v  1 e 0 0 ]
+{
+[v _Row `uc  1 a 1 wreg ]
+[v _Col `uc  1 p 1 0 ]
+[v _Row `uc  1 a 1 fsr0l ]
+"59
+} 0
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"83
+} 0
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+{
+"88
+[v _A `[10]uc  1 a 10 0 ]
+"87
+[v _DATA `l  1 p 4 0 ]
+[v _D `uc  1 p 1 4 ]
+[v _N `uc  1 p 1 5 ]
+"88
+[v _i `uc  1 a 1 prodh ]
+[v _i `uc  1 a 1 prodl ]
+"102
+} 10
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 fsr1l ]
+"69
+} 0
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 fsr1l ]
+"51
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+{
+"6
+[v _quotient `l  1 a 4 0 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"37
+} 4
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+{
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"30
+} 0
+"32 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Clock\LCD_PortD.c
+[v _LCD_Strobe `(v  1 e 0 0 ]
+{
+"39
+} 0
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+{
+"17
+[v _j `ui  1 a 2 0 ]
+"16
+[v _X `ui  1 p 2 0 ]
+"21
+} 2
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+{
+"28
+} 0

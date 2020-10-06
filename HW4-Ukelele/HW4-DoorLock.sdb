@@ -1,0 +1,151 @@
+[p GLOBOPT AUTOSTATIC LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"44 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Door\LCD_PortD.c
+[v _c `uc  1 a 1 prodl ]
+"54
+[v _Row `uc  1 a 1 fsr2l ]
+"62
+[v _c `uc  1 a 1 fsr2l ]
+[v _c `uc  1 a 1 fsr2l ]
+"54
+[v _Row `uc  1 a 1 fsr2l ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+"4 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Door\Ukelele.c
+[v _main `(v  1 e 0 0 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc  1 e 1 @4033 ]
+"133
+[v _TRISE `VNuc  1 e 1 @3990 ]
+"134
+[v _TRISD `VNuc  1 e 1 @3989 ]
+"136
+[v _TRISC `VNuc  1 e 1 @3988 ]
+"137
+[v _TRISB `VNuc  1 e 1 @3987 ]
+"138
+[v _TRISA `VNuc  1 e 1 @3986 ]
+"148
+[v _PORTD `VNuc  1 e 1 @3971 ]
+"617
+[v _RD1 `VNb  1 e 0 @31769 ]
+"618
+[v _RD2 `VNb  1 e 0 @31770 ]
+"619
+[v _RD3 `VNb  1 e 0 @31771 ]
+"627
+[v _RC0 `VNb  1 e 0 @31760 ]
+"637
+[v _RB0 `VNb  1 e 0 @31752 ]
+"638
+[v _RB1 `VNb  1 e 0 @31753 ]
+"639
+[v _RB2 `VNb  1 e 0 @31754 ]
+"640
+[v _RB3 `VNb  1 e 0 @31755 ]
+"19 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Door\Ukelele.c
+[v F1449 `DC[20]uc  1 s 20 F1449 ]
+"25
+[v F1451 `DC[20]uc  1 s 20 F1451 ]
+"31
+[v F1453 `DC[20]uc  1 s 20 F1453 ]
+"37
+[v F1455 `DC[20]uc  1 s 20 F1455 ]
+"4
+[v _main `(v  1 e 0 0 ]
+{
+"5
+[v _i `ui  1 a 2 0 ]
+"19
+[v _MSG0 `DC[20]uc  1 a 20 2 ]
+"25
+[v _MSG1 `DC[20]uc  1 a 20 22 ]
+"31
+[v _MSG2 `DC[20]uc  1 a 20 42 ]
+"37
+[v _MSG3 `DC[20]uc  1 a 20 62 ]
+"5
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+[v _i `ui  1 a 2 0 ]
+"43
+} 82
+"62 C:\Users\leeee\Desktop\Desktop\School\College\4th Year\Semester 2\Embedded Systems\HW\HW4\HW4-Door\LCD_PortD.c
+[v _LCD_Write `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 fsr2l ]
+"69
+} 0
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+{
+[v _Row `uc  1 a 1 wreg ]
+[v _Col `uc  1 p 1 0 ]
+[v _Row `uc  1 a 1 fsr2l ]
+"59
+} 0
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"83
+} 0
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 prodl ]
+"51
+} 0
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+{
+"17
+[v _j `ui  1 a 2 0 ]
+"16
+[v _X `ui  1 p 2 0 ]
+"21
+} 2
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+{
+"39
+} 0
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+{
+"28
+} 0
